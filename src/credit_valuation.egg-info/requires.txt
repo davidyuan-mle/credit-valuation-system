@@ -1,0 +1,8 @@
+pandas>=2.0
+pydantic>=2.0
+openpyxl>=3.1
+
+[dev]
+pytest>=7.0
+streamlit>=1.30
+plotly>=5.18

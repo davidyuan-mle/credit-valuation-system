@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/dy/Desktop/Job2026/credit-valuation-system log --oneline -20)",
+      "Bash(pip3 list:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(pytest:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

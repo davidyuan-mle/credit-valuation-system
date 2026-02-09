@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: credit-valuation
+Version: 0.1.0
+Summary: Present-value calculation for credit card account cohorts
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.0
+Requires-Dist: pydantic>=2.0
+Requires-Dist: openpyxl>=3.1
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: streamlit>=1.30; extra == "dev"
+Requires-Dist: plotly>=5.18; extra == "dev"

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "credit-valuation"
+version = "0.1.0"
+description = "Present-value calculation for credit card account cohorts"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "pydantic>=2.0",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "streamlit>=1.30",
+    "plotly>=5.18",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
