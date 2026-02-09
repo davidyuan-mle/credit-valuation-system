@@ -1,5 +1,7 @@
 # Credit Valuation System
 
+This is a quick-and-dirty system built entirely by Claude from a few simple prompts.
+
 A present-value calculation engine for credit card account cohorts. Given a portfolio of accounts and their expected behavior over time (charge-offs, attrition, balances, fees), the system computes period-by-period cash flows, discounts them to present value, and produces summary metrics that quantify the economic value of the cohort.
 
 ## How It Works
